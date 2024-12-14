@@ -10,9 +10,7 @@ This project is a simple implementation of a Sudoku Game using Python and Pygame
 The game is designed to provide a fun and interactive way to play Sudoku.
 
 **Instructions to Run the Code**
-1. clone or download the repository:
-  git clone <repository-link>
-  cd <repository-folder>
+1. copy or download the repository:
 2. Run the python script
 3. Gameplay Controls:
   Mouse Click: Select a cell in the grid.
