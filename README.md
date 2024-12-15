@@ -10,17 +10,16 @@ This project is a simple implementation of a Sudoku Game using Python and Pygame
 The game is designed to provide a fun and interactive way to play Sudoku.
 
 **Instructions to Run the Code**
-1. copy or download the repository:
-2. Run the python script
-3. Gameplay Controls:
-  Mouse Click: Select a cell in the grid.
-  Keyboard Numbers (1-9): Input numbers into selected cells.
-  Arrow Keys: Navigate between cells.
-  Backspace/Delete: Remove a number from a cell (if not pre-filled).
+1. Download the project files (see instructions below).
+2. Run the Python script to start the game.
+3. Use the following controls to play:
+  Mouse Click: Select a cell in the Sudoku grid.
+  Keyboard (1-9): Input a number into the selected cell.
+  Arrow Keys: Move between cells.
+  Backspace/Delete: Remove a number from a cell (if it's not pre-filled).
   Spacebar: Restart the puzzle after solving it.
-4. Goal:
-  Complete the Sudoku grid such that:
-  Each row, column, and 3x3 subgrid contains numbers 1-9 without repetition.
+Objective:
+Fill the grid so that each row, column, and 3x3 box contains the numbers 1-9 without repeating any.
 
 **Dependencies or Installation Steps**
 1. Required Libraries:
