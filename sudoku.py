@@ -5,7 +5,6 @@ pygame.init()
 screen = pygame.display.set_mode((700, 600))
 pygame.display.set_caption('Sudoku')
 
-x,y = screen.get_size()
 grid = []
 
 cell_size = 540 // 9
