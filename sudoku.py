@@ -4,8 +4,8 @@ class SudokuGame:
     def __init__(self):
         pygame.init()  # Initialize all Pygame modules
 
-        # Create the game window and set its size to 700x600 pixels
-        self.screen = pygame.display.set_mode((700, 600))
+        # Create the game window and set its size to 970x550 pixels
+        self.screen = pygame.display.set_mode((970, 550))
         pygame.display.set_caption('Sudoku')
 
         # Define constants
@@ -151,8 +151,8 @@ class SudokuGame:
             if self.game_state == 'solved':
                 text = self.font.render('Puzzle Solved!', True, self.colors['white'])
                 text1 = self.font.render('Press SPACE to restart', True, self.colors['white'])
-                self.screen.blit(text, (150, 520))
-                self.screen.blit(text1, (150, 550))
+                self.screen.blit(text, (550, 200))
+                self.screen.blit(text1, (550, 250))
 
             running = self.handle_events()
             pygame.display.flip()
